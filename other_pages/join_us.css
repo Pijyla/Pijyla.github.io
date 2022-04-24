@@ -1,0 +1,93 @@
+html{
+    font-size: 62.5%;
+}
+
+@media only screen and (max-width:630px) {
+    html{font-size: 40%;}
+    
+}
+
+
+body{
+    background-image: url("../assets/Texture_Fill.png");
+    background-size: cover;
+    height: 100vh;
+
+}
+
+h1{
+    text-align: center;
+    padding-left: 2rem;
+    padding-top: 3rem;
+    font-size: 4rem;
+}
+p{
+    margin-top: 0;
+    font-size: 3rem;
+    padding-left: 2rem;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem 1rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+    
+}
+.picture img{
+    height: 40rem;
+    width: 40rem;
+    transition: transform .2s;
+    box-shadow: 0.5rem 1rem 2rem black;
+    
+}
+@media only screen and (min-width:420px) {
+    
+    img:hover{
+        transform: scale(1.2);
+        margin: 2rem;
+    }
+}
+form{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.8rem;
+}
+
+.newsletter{
+    margin-top: 6rem;
+    width: fit-content;
+    margin:5rem auto;
+    font-style: italic;
+
+    
+}
+input{
+    height: 2.7rem;
+    font-size: large;
+}
+
+button{
+    width: fit-content;
+    font-size: 2rem;
+    background-color: #3EB072;
+}
+
+#invitation{
+    padding: 3rem 0;
+    text-align: center;
+    background-image: radial-gradient(#56ab2f,#a8e063);
+    font-size: 2.8rem;
+
+}
+#invitation p{
+    padding:0;
+    margin-bottom: 0;
+    text-shadow:0 0.5rem 0.6rem #2F94AB
+}
